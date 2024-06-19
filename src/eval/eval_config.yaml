@@ -1,0 +1,14 @@
+dataset: "nih-cxr"
+dataset_directory: "/data/cl2920/NIH-CXR/images/"
+model: "vlm"
+model_path: "/data/cl2920/Git/RadFM/"
+
+gpu_id: 0
+num_samples: 'all'
+checkpoint_path: "/data/cl2920/Models/chexbert_checkpoint.pth"
+
+package_path1: "/data/cl2920/Git/LLaVA-Med/"
+package_path2: "/data/cl2920/Git/XrayGPT/"
+package_path3: "/data/cl2920/Git/RadFM/src"
+package_path4: "/homes/cl2920/Projects/CheXmed-VisualQA/src/train_v2"
+
